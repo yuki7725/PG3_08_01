@@ -28,7 +28,6 @@ int main() {
 	//計測ゴール
 	end2 = std::chrono::system_clock::now();
 
-
 	//処理に使った時間を求める
 	auto time1 = end1 - start1;
 	auto time2 = end2 - start2;
@@ -41,9 +40,6 @@ int main() {
 	std::cout << "100,000文字をコピーと移動で比較しました" << std::endl;
 	std::cout <<"コピー " << m1 << "μs" << std::endl;
 	std::cout <<"移動 " << m2 << "μs" << std::endl;
-
-	//printf("コピー%d\n",a);
-	//printf("移動%d\n", a);
 
 	return 0;
 }
