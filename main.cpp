@@ -23,7 +23,7 @@ int main() {
 
 	//計測スタート
 	start2 = std::chrono::system_clock::now();
-	//間に計算したい処理(移動)
+	//間に計算したい処理(移動) 
 	std::string c = std::move(a);
 	//計測ゴール
 	end2 = std::chrono::system_clock::now();
